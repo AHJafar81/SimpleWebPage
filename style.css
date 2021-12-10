@@ -1,0 +1,91 @@
+@font-face {
+    font-family: BNazanin;
+    src: url(B-NAZANIN.TTF);
+  }
+body{
+    font-family: BNazanin;
+    font-size: 14px;
+    background-color: #F6F7FF;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.navbar {
+    float: right;
+  }
+  
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+.active{
+    background-color: rgba(89, 227, 175, 0.94);
+}
+.footer{
+    display: block;
+    color: white;
+    text-align: right;
+    background-color: #333;
+    position:fixed;
+    bottom: 0px;
+    width:100%;
+  }
+h3{
+    display: block;
+    margin-right:20px;
+}
+.footer a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.footer li{
+    float: right;
+}
+.contact{
+  text-align:right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+form {
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 0 2px 5px #f5f5f5; 
+  background: #f5f5f5; 
+  }
+p{
+  font-size: 32px;
+  text-align: right;
+  direction: rtl;
+  margin:20px;
+}
+.skills{
+  background-color: aquamarine;
+  list-style-type:circle;
+}
+.honors{
+  background-color: aquamarine;
+  list-style-type:circle;
+}
+.hli{
+  text-align: right !important;
+  font-size: 20px;
+  margin :10 px;
+}
